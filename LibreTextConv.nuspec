@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>LibreTextConv</id>
+        <id>libretextconv</id>
         <version>1.0.0</version>
         <title>LibreTextConver</title>
         <authors>IanC</authors>
         <owners>IanC</owners>
-        <licenseUrl>http://choosealicense.com/licenses/gpl-3.0/</licenseUrl>
-        <projectUrl>http://example.com</projectUrl>
+        <licenseUrl>https://github.com/Ian2020/LibreTextConv/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/Ian2020/LibreTextConv</projectUrl>
         <iconUrl>http://example.com</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>LibreTextConv converts ODT files to a text representation suitable for diffing in tools such as Git.</description>
         <summary>LibreTextConv converts ODT files to a text representation suitable for diffing in tools such as Git</summary>
         <tags>LibreOffice TextConv Git</tags>
         <dependencies>
-            <dependency id="7zip" version="9.22.01.20130618" />
+            <dependency id="7zip" />
         </dependencies>
     </metadata>
     <files>

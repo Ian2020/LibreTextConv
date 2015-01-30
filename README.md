@@ -28,7 +28,7 @@ This will install the command LibreTextConv which will then be available from an
 
 To add the program as a driver for Git diffs do the following:
 
-* Edit your ~\.gitconfig file to define a new diff method:
+* Edit your ~\\.gitconfig file to define a new diff method:
 
 ```
     [diff "odf"]
@@ -38,7 +38,7 @@ To add the program as a driver for Git diffs do the following:
 
 ...the caching ensures the diff is not re-run if files have not been updated.
 
-* Then add/edit your .gitattributes file, adding the line:
+* Then edit your .gitattributes file, adding the line:
 
 ```
     *.ods	diff=odf

@@ -36,7 +36,7 @@ To add the program as a driver for Git diffs do the following:
         cachetextconv = true
 ```
 
-    ...the caching ensures the diff is not re-run if files have not been updated.
+...the caching ensures the diff is not re-run if files have not been updated.
 
 * Then add/edit your .gitattributes file, adding the line:
 
@@ -44,7 +44,7 @@ To add the program as a driver for Git diffs do the following:
     *.ods	diff=odf
 ```
 
-    ...to define that all files ending in .ods (i.e. spreadsheets) should use diff method "odf" we defined above. 
+...to define that all files ending in .ods (i.e. spreadsheets) should use diff method "odf" we defined above. 
 
 There are a number of locations where you could put a .gitattributes file depending on the scope at which you wish to apply the change. I would suggest changing your 'global' .gitattributes so it applies to all repos for your user. The location of this file is usually ~/.gitattributes. If you don't know where it is or you've never set one up check you config for the 'core.attributesfile' value:
 
